@@ -46,15 +46,12 @@ print (logo)
 hprint(G + ' Starting Spoofy for Sending Emails ...')
 sleep(2)
 print ("")
-license = input(G + " Enter License Key" + C + " --> " + Y)
-print ("")
 username = input(G + " Enter Username" + C + " --> " + Y)
 print ("")
 caller_id  = input(G + " Enter New Caller ID" + C + " --> " + Y)
 print("")
 
 files = {
-    'license': (None, license),
     'username': (None, username),
     'caller_id': (None, caller_id),
     'submit': (None, "submit"),
